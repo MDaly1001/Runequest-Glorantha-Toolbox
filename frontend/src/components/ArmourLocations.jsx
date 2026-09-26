@@ -7,7 +7,8 @@
 // have checkboxes on armour to efffect the locations of the paper doll
 
 import { useState } from 'react';
-import armourData from '../data/equipment/armour.json';
+import ArmourTable from './ArmourTable.jsx';
+import armourLocationsImg from '../assets/armour-locations.png';
 
 const ArmourLocations = () => {
   const [selectedArmour, setSelectedArmour] = useState([]);
@@ -24,19 +25,9 @@ const ArmourLocations = () => {
 
   return (
     <div>
-      <h2>Armour Locations</h2>
-      {armourData.armour.map((item, index) => (
-        <div key={index}>
-          <label>
-            <input
-              type="checkbox"
-              checked={selectedArmour.includes(item)}
-              onChange={() => toggleArmour(item)}
-            />
-            {item.location} - {item.material_type}
-          </label>
-        </div>
-      ))}
+        <h2>Armour Locations</h2>
+        <img src={armourLocationsImg} alt="Armour Locations" />
+        <ArmourTable />
     </div>
   );
 };
