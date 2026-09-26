@@ -2,6 +2,7 @@ import { useState } from 'react'
 import runequestLogo from './assets/runequest.svg'
 import './App.css'
 import StatCalculator from './components/StatCalculator.jsx';
+import ArmourLocations from './components/ArmourLocations.jsx';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -13,7 +14,7 @@ function App() {
         Characteristics and Derived Stats Calculator for Runequest Glorantha
       </p>
       <StatCalculator />
-
+      <ArmourLocations />
     </>
   )
 }
