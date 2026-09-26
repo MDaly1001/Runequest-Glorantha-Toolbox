@@ -1,5 +1,5 @@
 import * as armourData from '../data/equipment/armour.json'
-
+import '../styles/ArmourTable.css';
 console.dir(armourData);
 function ArmourTable(){
 
@@ -8,9 +8,9 @@ function ArmourTable(){
         (item)=>{
             return(
                 <tr>
-                    <td>{item.location}</td>
+                    <td>{item.display}</td>
                     <td>{item.material}</td>
-                    <td>{item.section}</td>
+                    <td>{item.type}</td>
                     <td>{item.hit_location}</td>
                     <td>{item.absorbs}</td>
                     <td>{item.cost}</td>
@@ -25,27 +25,26 @@ function ArmourTable(){
     )
 
     return(
-        <div>
-            <table class="table table-striped">
-                <thead>
-                    <tr>
-                    <th>Location</th>
-                    <th>Section</th>
-                    <th>Hit Location</th>
-                    <th>Absorbs</th>
-                    <th>Cost</th>
-                    <th>Move Quietly</th>
-                    <th>Enc</th>
-                    <th>Under Armour</th>
-                    <th>Hide Penalty</th>
-                    <th>Misc</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    {DisplayData}
-                </tbody>
-            </table>
-        </div>
+        <table class="table table-striped" style={{}}>
+            <thead>
+                <tr>
+                <th>Location</th>
+                <th>Material</th>
+                <th>Type</th>
+                <th>Hit Location</th>
+                <th>Absorbs</th>
+                <th>Cost</th>
+                <th>Move Quietly</th>
+                <th>Enc</th>
+                <th>Under Armour</th>
+                <th>Hide Penalty</th>
+                <th>Misc</th>
+                </tr>
+            </thead>
+            <tbody>
+                {DisplayData}
+            </tbody>
+        </table>
     )
  }
 

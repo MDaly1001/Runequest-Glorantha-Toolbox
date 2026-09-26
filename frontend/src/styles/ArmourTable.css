@@ -1,0 +1,16 @@
+table {
+  table-layout: fixed;
+  width: 90%;
+  margin: 10px auto;
+  border-collapse: collapse;
+  border-top: 1px solid #999999;
+  border-bottom: 1px solid #999999;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #444444;
+}
+
+tfoot {
+  border-top: 1px solid #999999;
+}

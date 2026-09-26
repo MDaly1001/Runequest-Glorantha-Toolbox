@@ -26,7 +26,7 @@ const ArmourLocations = () => {
   return (
     <div>
         <h2>Armour Locations</h2>
-        <img src={armourLocationsImg} alt="Armour Locations" />
+        <img src={armourLocationsImg} alt="Armour Locations" style={{width:"75%"}} />
         <ArmourTable />
     </div>
   );

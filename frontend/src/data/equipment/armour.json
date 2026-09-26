@@ -1,5 +1,19 @@
 [
     {
+      "location": "",
+      "material": "",
+      "type": "",
+      "hit_location": "",
+      "absorbs":null,
+      "cost": null,
+      "move_quietly": null,
+      "enc": null,
+      "under_armour": null,
+      "hide_penalty": "",
+      "misc": "",
+      "display": "Head"
+    },
+    {
       "location": "Head",
       "material": "Leather",
       "type": "Hood",
@@ -104,6 +118,20 @@
       "misc": "-25 Spot Hidden, Search, Listen"
     },
     {
+      "location": "",
+      "material": "",
+      "type": "",
+      "hit_location": "",
+      "absorbs":null,
+      "cost": null,
+      "move_quietly": null,
+      "enc": null,
+      "under_armour": null,
+      "hide_penalty": "",
+      "misc": "",
+      "display": "Arms"
+    },
+    {
       "location": "Arms",
       "material": "Light Scale",
       "type": "Sleeves",
@@ -180,6 +208,20 @@
       "under_armour": null,
       "hide_penalty": null,
       "misc": null
+    },
+    {
+      "location": "",
+      "material": "",
+      "type": "",
+      "hit_location": "",
+      "absorbs":null,
+      "cost": null,
+      "move_quietly": null,
+      "enc": null,
+      "under_armour": null,
+      "hide_penalty": "",
+      "misc": "",
+      "display": "Chest"
     },
     {
       "location": "Chest",
@@ -312,6 +354,20 @@
       "misc": null
     },
     {
+      "location": "",
+      "material": "",
+      "type": "",
+      "hit_location": "",
+      "absorbs":null,
+      "cost": null,
+      "move_quietly": null,
+      "enc": null,
+      "under_armour": null,
+      "hide_penalty": "",
+      "misc": "",
+      "display": "Abdomen & Chest"
+    },
+    {
       "location": "Abdomen & Chest",
       "material": "Quilted",
       "type": "Linothorax",
@@ -429,6 +485,20 @@
       "misc": null
     },
     {
+      "location": "",
+      "material": "",
+      "type": "",
+      "hit_location": "",
+      "absorbs":null,
+      "cost": null,
+      "move_quietly": null,
+      "enc": null,
+      "under_armour": null,
+      "hide_penalty": "",
+      "misc": "",
+      "display": "Abdomen"
+    },
+    {
       "location": "Abdomen",
       "material": "Leather",
       "type": "Skirts",
@@ -507,6 +577,20 @@
       "misc": null
     },
     {
+      "location": "",
+      "material": "",
+      "type": "",
+      "hit_location": "",
+      "absorbs":null,
+      "cost": null,
+      "move_quietly": null,
+      "enc": null,
+      "under_armour": null,
+      "hide_penalty": "",
+      "misc": "",
+      "display": "Abdomen & Legs"
+    },
+    {
       "location": "Abdomen & Legs",
       "material": "Leather ",
       "type": "Pants/Trews",
@@ -531,6 +615,20 @@
       "under_armour": null,
       "hide_penalty": null,
       "misc": null
+    },
+    {
+      "location": "",
+      "material": "",
+      "type": "",
+      "hit_location": "",
+      "absorbs":null,
+      "cost": null,
+      "move_quietly": null,
+      "enc": null,
+      "under_armour": null,
+      "hide_penalty": "",
+      "misc": "",
+      "display": "Legs"
     },
     {
       "location": "Legs",
